@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="yuzuko/css/bootstrap.css">
+<style type="text/css">
+.doc-section {
+	margin-top: 5rem;
+}
+.doc-component {
+	margin-bottom: 12px;
+}
+.doc-component .modal {
+	position: relative;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	z-index: 1;
+	display: block;
+}
+</style>
+	</head>
+	<body>
+		<header id="navigation" class="sticky-top">
+			<div class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<span class="navbar-brand">Yuzuko</span>
+					</div>
+					<div class="navbar-collapse collapse" id="navbar-main">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a href="/" class="nav-link">トップ</a></li>
+							<li class="nav-item dropdown active">
+								<a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Live Demo</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a href="/" class="dropdown-item">Japanese Page</a>
+									<a href="/" class="dropdown-item">Japanese Page</a>
+								</div>
+							</li>
+							<li class="nav-item"><a href="/" class="nav-link">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="container">
+			<div class="page-header">
+				<div class="row">
+					<div class="py-3">
+						<h1 class="display-3">Yuzuko</h1>
+						<p class="lead">デモです</p>
+					</div>
+				</div>
+			</div>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Navbar</h1>
+				</div>
+				<div class="doc-component">
+					<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+						<div class="container-fluid">
+							<a class="navbar-brand">Yuzuko</a>
+							<div class="navbar-collapse collapse">
+								<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+									<li class="nav-item"><a href="#" class="nav-link active">Top</a></li>
+									<li class="nav-item"><a href="#" class="nav-link active">Demo</a></li>
+									<li class="nav-item"><a href="#" class="nav-link">GitHub</a></li>
+								</ul>
+								<form class="d-flex">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-secondary my-sm-0" type="submit">検索</button>
+								</form>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="doc-component">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+						<div class="container-fluid">
+							<a class="navbar-brand">Yuzuko</a>
+							<div class="navbar-collapse collapse">
+								<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+									<li class="nav-item"><a href="#" class="nav-link">Top</a></li>
+									<li class="nav-item"><a href="#" class="nav-link active">Demo</a></li>
+									<li class="nav-item"><a href="#" class="nav-link">GitHub</a></li>
+								</ul>
+								<form class="d-flex">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-secondary my-sm-0" type="submit">検索</button>
+								</form>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="doc-component">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<div class="container-fluid">
+							<a class="navbar-brand">Yuzuko</a>
+							<div class="navbar-collapse collapse">
+								<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+									<li class="nav-item"><a href="#" class="nav-link">Top</a></li>
+									<li class="nav-item"><a href="#" class="nav-link active">Demo</a></li>
+									<li class="nav-item"><a href="#" class="nav-link">GitHub</a></li>
+								</ul>
+								<form class="d-flex">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-secondary my-sm-0" type="submit">検索</button>
+								</form>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Buttons</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-7">
+						<p class="doc-component">
+							<button type="button" class="btn btn-primary">Primary</button>
+							<button type="button" class="btn btn-secondary">Secondary</button>
+							<button type="button" class="btn btn-success">Success</button>
+							<button type="button" class="btn btn-info">Info</button>
+							<button type="button" class="btn btn-warning">Warning</button>
+							<button type="button" class="btn btn-danger">Danger</button>
+							<button type="button" class="btn btn-link">Link</button>
+						</p>
+						<p class="doc-components">
+							<button type="button" class="btn btn-primary disabled">Primary</button>
+							<button type="button" class="btn btn-secondary disabled">Secondary</button>
+							<button type="button" class="btn btn-success disabled">Success</button>
+							<button type="button" class="btn btn-info disabled">Info</button>
+							<button type="button" class="btn btn-warning disabled">Warning</button>
+							<button type="button" class="btn btn-danger disabled">Danger</button>
+							<button type="button" class="btn btn-link disabled">Link</button>
+						</p>
+						<p class="doc-component">
+							<button type="button" class="btn btn-outline-primary">Primary</button>
+							<button type="button" class="btn btn-outline-secondary">Secondary</button>
+							<button type="button" class="btn btn-outline-success">Success</button>
+							<button type="button" class="btn btn-outline-info">Info</button>
+							<button type="button" class="btn btn-outline-warning">Warning</button>
+							<button type="button" class="btn btn-outline-danger">Danger</button>
+							<button type="button" class="btn btn-outline-link">Link</button>
+						</p>
+						<div class="doc-component">
+							<button type="button" class="btn btn-primary btn-lg">Large button</button>
+							<button type="button" class="btn btn-primary">Default button</button>
+							<button type="button" class="btn btn-primary btn-sm">Small button</button>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="doc-component">
+							<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+						</div>
+						<div class="doc-component">
+							<div class="btn-group">
+								<input type="checkbox" class="btn-check" name="options" id="option1" checked autocomplete="off">
+								<label class="btn btn-primary" for="option1">Active</label>
+								<input type="checkbox" class="btn-check" name="options" id="option2" autocomplete="off">
+								<label class="btn btn-primary" for="option2">Check</label>
+								<input type="checkbox" class="btn-check" name="options" id="option3" autocomplete="off">
+								<label class="btn btn-primary" for="option3">Check</label>
+							</div>
+						</div>
+						<div class="doc-component">
+							<div class="btn-group">
+								<input type="radio" class="btn-check" name="options" id="option1" checked autocomplete="off">
+								<label class="btn btn-primary" for="option1">Checked</label>
+								<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+								<label class="btn btn-primary" for="option2">Radio</label>
+								<input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+								<label class="btn btn-primary" for="option3">Radio</label>
+							</div>
+						</div>
+						<div class="doc-component">
+							<div class="btn-group-vertical">
+								<button type="button" class="btn btn-primary">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+								<button type="button" class="btn btn-primary">Button</button>
+							</div>
+						</div>
+						<div class="doc-component">
+							<div class="btn-group" role="group" aria-label="Basic example">
+								<button type="button" class="btn btn-secondary">Left</button>
+								<button type="button" class="btn btn-secondary">Middle</button>
+								<button type="button" class="btn btn-secondary">Right</button>
+							</div>
+						</div>
+						<div class="doc-component">
+							<div class="btn-toolbar" role="toolbar" aria-label="Toolbar example">
+								<div class="btn-group mr-2" role="group" aria-label="First group">
+									<button type="button" class="btn btn-secondary">1</button>
+									<button type="button" class="btn btn-secondary">2</button>
+									<button type="button" class="btn btn-secondary">3</button>
+									<button type="button" class="btn btn-secondary">4</button>
+								</div>
+								<div class="btn-group mr-2" role="group" aria-label="Second group">
+									<button type="button" class="btn btn-secondary">5</button>
+									<button type="button" class="btn btn-secondary">6</button>
+									<button type="button" class="btn btn-secondary">7</button>
+								</div>
+								<div class="btn-group mr-2" role="group" aria-label="Third group">
+									<button type="button" class="btn btn-secondary">8</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Typography</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<h1>見出しTitle 1</h1>
+							<h2>見出しTitle 2</h2>
+							<h3>見出しTitle 3</h3>
+							<h4>見出しTitle 4</h4>
+							<h5>見出しTitle 5</h5>
+							<h6>見出しTitle 6</h6>
+							<h3>
+								見出し
+								<small class="text-muted">サブテキスト</small>
+							</h3>
+							<p class="lead">色は匂へど散りぬるを 我が世誰ぞ常ならむ。</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<h2>本文サンプル</h2>
+							<p>グスコーブドリは、<a href="#">イーハトーヴ</a>の大きな森のなかに生まれました。おとうさんは、グスコーナドリという名高い木こりで、どんな大きな木でも、まるで赤ん坊を寝かしつけるようにわけなく切ってしまう人でした。</p>
+							<p><small>テキストのこの行は、細字として扱われることを意味します。</small></p>
+							<p>テキストの次のコードは、<strong>太字のテキストとしてレンダリングされます</strong>。</p>
+							<p>テキストの次のコードは、<em>斜体のテキストとしてレンダリングされます</em></p>
+							<p><abbr title="Nippon Telegraph and Telephone Corporation">NTT</abbr>の日本語名称は「日本電信電話」です</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<h2>Emphasis classes</h2>
+							<p class="text-muted">春はあけぼの。やうやう白くなりゆく山際、少しあかりて、紫だちたる雲の細くたなびきたる。</p>
+							<p class="text-primary">夏は夜。月の頃はさらなり。闇もなほ、蛍のおほく飛びちがひたる。</p>
+							<p class="text-warning">また、ただ一つ二つなど、ほのかにうち光りて行くもをかし。雨など降るもをかし。</p>
+							<p class="text-danger">秋は夕暮れ。夕日のさして山の端いと近うなりたるに、烏の、寝どころへ行くとて、三つ四つ、二つ三つなど飛び急ぐさへあはれなり。</p>
+							<p class="text-success">まいて、雁などのつらねたるが、いと小さく見ゆるは、いとをかし。 </p>
+							<p class="text-info">日入り果てて、風の音、虫の音など、はた言ふべきにあらず。</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<h2>Blockquotes</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<blockquote class="blockquote">
+							<p class="">BootstrapはWebサイトやWebアプリケーションを作成するフリーソフトウェアツール集である。タイポグラフィ、フォーム、ボタン、ナビゲーション、その他構成要素やJavaScript用拡張などがHTML及びCSSベースのデザインテンプレートとして用意されている。</p>
+							<footer class="blockquote-footer">出展 <cite title="Bootstrap - Wikipedia">Bootstrap - Wikipedia</cite></footer>
+						</blockquote>
+					</div>
+					<div class="col-lg-4">
+						<blockquote class="blockquote text-center">
+							<p class="">BootstrapはWebサイトやWebアプリケーションを作成するフリーソフトウェアツール集である。タイポグラフィ、フォーム、ボタン、ナビゲーション、その他構成要素やJavaScript用拡張などがHTML及びCSSベースのデザインテンプレートとして用意されている。</p>
+							<footer class="blockquote-footer">出展 <cite title="Bootstrap - Wikipedia">Bootstrap - Wikipedia</cite></footer>
+						</blockquote>
+					</div>
+					<div class="col-lg-4">
+						<blockquote class="blockquote text-right">
+							<p class="">BootstrapはWebサイトやWebアプリケーションを作成するフリーソフトウェアツール集である。タイポグラフィ、フォーム、ボタン、ナビゲーション、その他構成要素やJavaScript用拡張などがHTML及びCSSベースのデザインテンプレートとして用意されている。</p>
+							<footer class="blockquote-footer">出展 <cite title="Bootstrap - Wikipedia">Bootstrap - Wikipedia</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Tables</h1>
+				</div>
+				<div class="row">
+					<div class="doc-component">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Type</th>
+									<th scope="col">名前</th>
+									<th scope="col">ニックネーム</th>
+									<th scope="col">あ</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="table-active">
+									<th scope="row">Active</th>
+									<td>野々原ゆずこ</td>
+									<td>ゆずちゃん</td>
+									<td></td>
+								</tr>
+								<tr>
+									<th scope="row">Detault</th>
+									<td>櫟井唯</td>
+									<td>ゆいちゃん</td>
+									<td></td>
+								</tr>
+								<tr class="table-primary">
+									<th scope="row">Primary</th>
+									<td>日向縁</td>
+									<td>ゆかりちゃん</td>
+									<td></td>
+								</tr>
+								<tr class="table-secondary">
+									<th scope="row">Secondary</th>
+									<td>松本頼子</td>
+									<td>おかーさん</td>
+									<td></td>
+								</tr>
+								<tr class="table-success">
+									<th scope="row">Success</th>
+									<td>相川千穂</td>
+									<td>あいちゃん</td>
+									<td></td>
+								</tr>
+								<tr class="table-danger">
+									<th scope="row">Danger</th>
+									<td>岡野佳</td>
+									<td>おかちー</td>
+									<td></td>
+								</tr>
+								<tr class="table-warning">
+									<th scope="row">Warning</th>
+									<td>長谷川ふみ</td>
+									<td>はせやん</td>
+									<td></td>
+								</tr>
+								<tr class="table-info">
+									<th scope="row">Info</th>
+									<td>松本頼子</td>
+									<td>おかーさん</td>
+									<td></td>
+								</tr>
+								<tr class="table-light">
+									<th scope="row">Light</th>
+									<td>松本頼子</td>
+									<td>おかーさん</td>
+									<td></td>
+								</tr>
+								<tr class="table-dark">
+									<th scope="row">Dark</th>
+									<td>松本頼子</td>
+									<td>おかーさん</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Forms</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="doc-component">
+							<form>
+								<fieldset>
+									<legend>Legend</legend>
+									<div class="form-group row">
+										<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+										<div class="col-sm-10">
+											<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="mail@example.com">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputEmail">メールアドレス</label>
+										<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+										<small id="emailHelp" class="form-text text-muted">ここで入力したメールアドレスは公開されません</small>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputPassword1">パスワード</label>
+										<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="exampleSelect1">選択</label>
+										<select class="form-control" id="exampleSelect1">
+											<option>野々原ゆずこ</option>
+											<option>櫟井唯</option>
+											<option>日向縁</option>
+											<option>松本頼子</option>
+											<option>相川千穂</option>
+											<option>岡野佳</option>
+											<option>長谷川ふみ</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="exampleSelect2">複数選択</label>
+										<select multiple class="form-control" id="exampleSelect2">
+											<option>野々原ゆずこ</option>
+											<option>櫟井唯</option>
+											<option>日向縁</option>
+											<option>松本頼子</option>
+											<option>相川千穂</option>
+											<option>岡野佳</option>
+											<option>長谷川ふみ</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="exampleTextarea">テキストエリア</label>
+										<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+									</div>
+									<div class="form-group">
+										<label for="exampleInputFile">ファイル選択</label>
+										<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+										<small id="fileHelp" class="form-text text-muted">上にある入力欄に関するブロックレベルのヘルプテキストです。少し薄い文字色で表示されて、1行に収まらない場合は折り返して表示されます。</small>
+									</div>
+									<fieldset class="form-group">
+										<legend>ラジオボタン</legend>
+										<div class="form-check">
+											<label class="form-check-label">
+												<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+												オプション1
+											</label>
+										</div>
+										<div class="form-check">
+											<label class="form-check-label">
+												<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+												オプション2
+											</label>
+										</div>
+										<div class="form-check disabled">
+											<label class="form-check-label">
+												<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+												オプション3 (Disable)
+											</label>
+										</div>
+									</fieldset>
+									<fieldset class="form-group">
+										<legend>チェックボックス</legend>
+										<div class="form-check">
+											<label class="form-check-label">
+												<input class="form-check-input" type="checkbox" value="" checked>
+												オプション1
+											</label>
+										</div>
+										<div class="form-check disabled">
+											<label class="form-check-label">
+												<input class="form-check-input" type="checkbox" value="" disabled>
+												オプション2 (Disable)
+											</label>
+										</div>
+									</fieldset>
+									<fieldset class="form-group">
+										<legend>スライダー</legend>
+										<label for="customRange1">レンジ</label>
+										<input type="range" class="custom-range" id="customRange1">
+									</fieldset>
+									<button type="submit" class="btn btn-primary">送信</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 offset-lg-1">
+						<div class="doc-component">
+							<form>
+								<div class="form-group">
+									<fieldset disabled>
+										<label class="control-label" for-"disabledInput">Disabled 入力欄</label>
+										<input class="form-control" id="disabledInput" type="text" placeholder="Disabled の入力欄です" disabled>
+									</fieldset>
+								</div>
+								<div class="form-group">
+									<fieldset>
+										<label class="control-label" for-"readOnlyInput">Readonly 入力欄</label>
+										<input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly の入力欄です" readonly>
+									</fieldset>
+								</div>
+								<div class="form-group has-success">
+									<fieldset>
+										<label class="form-control-label" for-"inputSuccess1">Valid input</label>
+										<input class="form-control is-valid" id="inputSuccess1" type="text" value="Obake">
+										<div class="valid-feedback">入力したIDは使用可能です</div>
+									</fieldset>
+								</div>
+								<div class="form-group has-danger">
+									<fieldset>
+										<label class="form-control-label" for-"inputDanger1">Invalid input</label>
+										<input class="form-control is-invalid" id="inputDanger1" type="text" value="Obake">
+										<div class="invalid-feedback">入力したIDはすでに使用済みです</div>
+									</fieldset>
+								</div>
+								<div class="form-group">
+									<fieldset>
+										<label class="col-form-label col-form-label-lg" for-"inputLarge">大きい入力欄</label>
+										<input class="form-control form-control-lg" id="inputLarge" type="text" placeholder=".form-control-lg">
+									</fieldset>
+								</div>
+								<div class="form-group">
+									<fieldset>
+										<label class="col-form-label" for-"inputDefault">通常の入力欄</label>
+										<input class="form-control" id="inputDefault" type="text" placeholder="Defualt input">
+									</fieldset>
+								</div>
+								<div class="form-group">
+									<fieldset>
+										<label class="col-form-label col-form-label-sm" for-"inputSmall">小さい入力欄</label>
+										<input class="form-control form-control-sm" id="inputSmall" type="text" placeholder=".form-control-small">
+									</fieldset>
+								</div>
+								<div class="form-group">
+									<fieldset>
+										<label class="control-label">Input Addons</label>
+										<div class="form-group">
+											<div class="input-group mb-3">
+												<div class="input-group-prepend">
+													<span class="input-group-text">￥</span>
+												</div>
+												<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+												<div class="input-group-append">
+													<span class="input-group-text">百万円</span>
+												</div>
+											</div>
+										</div>
+									</fieldset>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Navs</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h2 id="nav-tabs">Tabs</h2>
+						<div class="doc-component">
+							<ul class="nav nav-tabs">
+								<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home">坊ちゃん</a></li>
+								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#profile">愚見数則</a></li>
+								<li class="nav-item"><a class="nav-link disabled" href="#">人間失格</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">宮沢賢治</a>
+									<div class="dropdown-menu">
+										<a class="dowpdown-item" data-toggle="tab" href="#dowpdown1">雨ニモマケズ</a>
+										<a class="dowpdown-item" data-toggle="tab" href="#dowpdown2">春と修羅(序)</a>
+										<a class="dowpdown-item" data-toggle="tab" href="#dowpdown3">銀河鉄道の夜</a>
+										<div class="downdown-divider"></div>
+										<a class="dowpdown-item" data-toggle="tab" href="#dowpdown4">よだかの星</a>
+									</div>
+								</li>
+							</ul>
+							<div id="myTabContent" class="tab-content">
+								<div class="tab-pane fade show active" id="home">
+									<p>親讓りの無鐵砲で小供の時から損ばかりして居る。小學校に居る時分學校の二階から飛び降りて一週間程腰を拔かした事がある。なぜそんな無闇（むやみ）をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出して居たら、同級生の一人が冗談に、いくら威張つても、そこから飛び降りる事は出來まい。弱虫やーい。と囃（はや）したからである。小使（こづかひ）に負ぶさつて歸つて來た時、おやぢが大きな眼をして二階位（にかいぐらゐ）から飛び降りて腰を拔かす奴があるかと云つたから、此次（このつぎ）は拔かさずに飛んで見せますと答へた。</p>
+								</div>
+								<div class="tab-pane fade" id="profile">
+									<p>昔しの書生は、笈を負ひて四方に遊歴し、此人ならばと思ふ先生の許に落付く、故に先生を敬ふ事、父兄に過ぎたり、先生も亦弟子に対する事、真の子の如し、是でなくては真の教育といふ事は出来ぬなり、今の書生は学校を旅屋の如く思ふ、金を出して暫らく逗留するに過ぎず、厭になればすぐに宿を移す、かゝる生徒に対する校長は、宿屋の主人の如く、教師は番頭丁稚なり、主人たる校長すら、時には御客の機嫌を取らねばならず、況んや番頭丁稚をや、薫陶所か解雇されざるを以て幸福と思ふ位なり、生徒の増長し教員の下落するは当前の事なり。</p>
+								</div>
+								<div class="tab-pane fade" id="dropdown1">
+									<p>雨ニモマケズ 風ニモマケズ 雪ニモ夏ノ暑サニモマケヌ 丈夫ナカラダヲモチ 慾ハナク 決シテ瞋ラズ イツモシズカニワラッテイル 一日ニ玄米四合ト 味噌ト少シノ野菜ヲタベ アラユルコトヲ ジブンヲカンジョウニ入レズニ ヨクミキキシワカリ ソシテワスレズ</p>
+								</div>
+								<div class="tab-pane fade" id="dropdown2">
+									<p>わたくしといふ現象は 假定された有機交流電燈の ひとつの青い照明です （あらゆる透明な幽霊の複合体） 風景やみんなといっしょに せはしくせはしく明滅しながら いかにもたしかにともりつづける 因果交流電燈の ひとつの青い照明です （ひかりはたもち、その電燈は失はれ）</p>
+								</div>
+								<div class="tab-pane fade" id="dropdown3">
+									<p>「ではみなさんは、さういふふうに川だと云はれたり、乳の流れたあとだと云はれたりしてゐたこのぼんやりと白いものがほんたうは何かご承知ですか。」先生は、黒板に吊した大きな黒い星座の図の、上から下へ白くけぶった銀河帯のやうなところを指しながら、みんなに問をかけました。</p>
+									<p>カムパネルラが手をあげました。それから四五人手をあげました。ジョバンニも手をあげやうとして、急いでそのまゝやめました。たしかにあれがみんな星だと、いつか雑誌で読んだのでしたが、このごろはジョバンニはまるで毎日教室でもねむく、本を読むひまも読む本もないので、なんだかどんなこともよくわからないといふ気持ちがするのでした。</p>
+								</div>
+								<div class="tab-pane fade" id="dropdown4">
+									<p>よだかは、実にみにくい鳥です。</p>
+									<p>顔は、ところどころ、味噌をつけたようにまだらで、くちばしは、ひらたくて、耳までさけています。</p>
+									<p>足は、まるでよぼよぼで、一間とも歩けません。</p>
+									<p>ほかの鳥は、もう、よだかの顔を見ただけでも、いやになってしまうという具合でした。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h2 id="nav-tabs">Pills</h2>
+						<div class="doc-component">
+							<ul class="nav nav-pills">
+								<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+								<li class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Somthing else here</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Separated link</a>
+									</div>
+								</li>
+								<li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+								<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+							</ul>
+						</div>
+						<div class="doc-component">
+							<ul class="nav nav-pills flex-column">
+								<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+								<li class="nav-item dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Somthing else here</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Separated link</a>
+									</div>
+								</li>
+								<li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+								<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h2 id="nav-tabs">Breadcrumbs</h2>
+						<div class="doc-component">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item active">Home</li>
+							</ol>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">Home</a></li>
+								<li class="breadcrumb-item active">Library</li>
+							</ol>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">Home</a></li>
+								<li class="breadcrumb-item"><a href="#">Library</a></li>
+								<li class="breadcrumb-item active">Data</li>
+							</ol>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h2 id="nav-tabs">Pagination</h2>
+						<div class="doc-component">
+							<div>
+								<ul class="pagination">
+									<li class="page-item disabled"><a href="#" class="page-link">«</a></li>
+									<li class="page-item active"><a href="#" class="page-link">1</a></li>
+									<li class="page-item"><a href="#" class="page-link">2</a></li>
+									<li class="page-item"><a href="#" class="page-link">3</a></li>
+									<li class="page-item"><a href="#" class="page-link">4</a></li>
+									<li class="page-item"><a href="#" class="page-link">5</a></li>
+									<li class="page-item"><a href="#" class="page-link">»</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul class="pagination pagination-lg">
+									<li class="page-item disabled"><a href="#" class="page-link">«</a></li>
+									<li class="page-item active"><a href="#" class="page-link">1</a></li>
+									<li class="page-item"><a href="#" class="page-link">2</a></li>
+									<li class="page-item"><a href="#" class="page-link">3</a></li>
+									<li class="page-item"><a href="#" class="page-link">4</a></li>
+									<li class="page-item"><a href="#" class="page-link">5</a></li>
+									<li class="page-item"><a href="#" class="page-link">»</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul class="pagination pagination-sm">
+									<li class="page-item disabled"><a href="#" class="page-link">«</a></li>
+									<li class="page-item active"><a href="#" class="page-link">1</a></li>
+									<li class="page-item"><a href="#" class="page-link">2</a></li>
+									<li class="page-item"><a href="#" class="page-link">3</a></li>
+									<li class="page-item"><a href="#" class="page-link">4</a></li>
+									<li class="page-item"><a href="#" class="page-link">5</a></li>
+									<li class="page-item"><a href="#" class="page-link">»</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Indicators</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Alerts</h2>
+						<div class="doc-component">
+							<div class="alert alert-dismissible alert-warning">
+								<button type="button" class="btn-close" data-dismiss="alert"></button>
+								<h4 class="alert-heading">Warning</h4>
+								<p class="mb-0">
+								要求された処理は正常に完了できませんでした。このエラーについての詳細は<a href="#" class="alert-link">こちらのドキュメントを参照してください</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="alert alert-dismissible alert-danger">
+								<button type="button" class="btn-close" data-dismiss="alert"></button>
+								<strong>エラー</strong>
+								<a href="#" class="alert-link">いくつかの項目を見直して</a>再度投稿してください
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="alert alert-dismissible alert-success">
+								<button type="button" class="btn-close" data-dismiss="alert"></button>
+								<strong>完了</strong>
+								記事「<a href="#" class="alert-link">情報処理部について</a>」を公開しました
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="alert alert-dismissible alert-info">
+								<button type="button" class="btn-close" data-dismiss="alert"></button>
+								<strong>Tips</strong>
+								唯ちゃんノートには<a href="#" class="alert-link">ピザ食わんのかい！</a>とか書いてある
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h2>Badge</h2>
+					<div class="doc-component">
+						<span class="badge badge-primary">Primary</span>
+						<span class="badge badge-secondary">Secondary</span>
+						<span class="badge badge-success">Success</span>
+						<span class="badge badge-danger">Danger</span>
+						<span class="badge badge-warning">Warning</span>
+						<span class="badge badge-info">Info</span>
+						<span class="badge badge-light">Light</span>
+						<span class="badge badge-dark">Dark</span>
+					</div>
+					<div class="doc-component">
+						<span class="badge badge-pill badge-primary">Primary</span>
+						<span class="badge badge-pill badge-secondary">Secondary</span>
+						<span class="badge badge-pill badge-success">Success</span>
+						<span class="badge badge-pill badge-danger">Danger</span>
+						<span class="badge badge-pill badge-warning">Warning</span>
+						<span class="badge badge-pill badge-info">Info</span>
+						<span class="badge badge-pill badge-light">Light</span>
+						<span class="badge badge-pill badge-dark">Dark</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Progress</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 id="progress-basic">Basic</h3>
+						<div class="doc-component">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<h3 id="progress-alternatives">Contextual alternatives</h3>
+						<div class="doc-component">
+							<div class="progress">
+								<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<h3 id="progress-multiple">Multiple bars</h3>
+						<div class="doc-component">
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<h3 id="progress-striped">Striped</h3>
+						<div class="doc-component">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<h3 id="progress-animated">Animated</h3>
+						<div class="doc-component">
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Spinners</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3 id="spinners-border">Border spinners</h3>
+						<div class="doc-component d-flex justify-content-around">
+							<div class="spinner-border" role="status"></div>
+							<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-success" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-danger" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-warning" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-light" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h3 id="spinners-growing">Growing spinners</h3>
+						<div class="doc-component d-flex justify-content-around">
+							<div class="spinner-grow" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-success" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-danger" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-warning" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-info" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-light" role="status"><span class="visually-hidden">Loading...</span></div>
+							<div class="spinner-grow text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Containers</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="doc-component">
+							<div class="p-5 bg-light">
+								<h1 class="display-3">情報処理部へようこそ</h1>
+								<p class="lead">情報処理部は、てきとうに決めた単語をググってその結果でまたおしゃべるする部活動です。</p>
+								<hr class="my-4">
+								<p>ノーイベント・グッドライフ！それがこの三人の"ゆゆ式(ルール)"</p>
+								<p class="lead">
+								<a class="btn btn-primary btn-lg" href="#" role="button">もっと詳しく</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<h2>List groups</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<ul class="list-group">
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									せーのっ！<span class="badge badge-primary badge-pill">13</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									Affection<span class="badge badge-primary badge-pill">8</span>
+								</li>
+								<li class="list-group-item d-flex justify-content-between align-items-center">
+									きらめきっ！の日<span class="badge badge-primary badge-pill">4</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<ul class="list-group">
+								<li class="list-group-item list-gropup-item-action active">いちげんめ</li>
+								<li class="list-group-item list-gropup-item-action">にげんめ</li>
+								<li class="list-group-item list-gropup-item-action disabled">さんげんめ</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="list-group">
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">高校生になりました</h5>
+										<small>第1話</small>
+									</div>
+									<p class="mb-1">高校に入学したゆずこ、唯、縁の仲良し3人はゆるゆるまったりとしたスクールライフを送っていた。ある日お母さん先生こと頼子が顧問を務める情報処理部のことを知り、3人はその部室で思いつくままに調べものをしたり、おしゃべりをし始める。</p>
+									<small>ゆゆ式 ストーリー</small>
+								</a>
+								<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+									<div class="d-flex w-100 justify-content-between">
+										<h5 class="mb-1">情報処理部</h5>
+										<small>第2話</small>
+									</div>
+									<p class="mb-1">放課後は部室で雑談をするようになった3人は、ある日ムネが大きい人はどうやって大きくなったのかを離していた。そんな時部室に入ってきた頼子のムネを触ろうと試みるゆずこと縁だが…。</p>
+									<small>ゆゆ式 なまおっぱい</small>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<h2>Cards</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="card mb-3">
+								<div class="card-header">Default card</div>
+								<div class="card-body">
+									<h4 class="card-title">野々原ゆずこ</h4>
+									<p class="card-text">情報処理部のムードメーカー。いたずら好きな性格で、よく縁や唯を楽しませるようなことを言ったりするが、意外にまじめな一面も持っている。実は成績優秀。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-primary mb-3">
+								<div class="card-header">Primary card</div>
+								<div class="card-body">
+									<h4 class="card-title">櫟井唯</h4>
+									<p class="card-text">サバサバした性格のしっかり者。情報処理部3人組の中で一番の常識人でまじめだが、時々シャイな一面を見せたりする。お金には厳しい方。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-secondary mb-3">
+								<div class="card-header">Secondary card</div>
+								<div class="card-body">
+									<h4 class="card-title">日向縁</h4>
+									<p class="card-text">ぽわぽわした天然娘。情報処理部の部長でいつもマイペースだが、時に周囲を驚かせるような事を言ったりもする。いいとこのお嬢さま。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-success mb-3">
+								<div class="card-header">Success card</div>
+								<div class="card-body">
+									<h4 class="card-title">松本頼子</h4>
+									<p class="card-text">情報処理部の顧問で英語教師。おっとりとした雰囲気で、ゆずこたちから「お母さん」と呼ばれて慕われているが、まだ20代で未婚。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-danger mb-3">
+								<div class="card-header">Danger card</div>
+								<div class="card-body">
+									<h4 class="card-title">相川千穂</h4>
+									<p class="card-text">愛されキャラの委員長。ゆずこたちのクラスメイトで、ちょっと控えめな優しい雰囲気を持った女の子。巨乳で美少女。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-warning mb-3">
+								<div class="card-header">Warning card</div>
+								<div class="card-body">
+									<h4 class="card-title">岡野佳</h4>
+									<p class="card-text">千穂のことがお気に入りな女の子。ゆずこたちのクラスメイトで、フランクな言葉づかいをするが根はとてもいい子。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-info mb-3">
+								<div class="card-header">Info card</div>
+								<div class="card-body">
+									<h4 class="card-title">長谷川ふみ</h4>
+									<p class="card-text">不思議な雰囲気の女の子。ゆずこたちのクラスメイトで、どこか掴みどころのない性格だが、意外に周りのことをよく見ていたりもする。</p>
+								</div>
+							</div>
+							<div class="card bg-light mb-3">
+								<div class="card-header">Light card</div>
+								<div class="card-body">
+									<h4 class="card-title">なんつってっつっちゃった</h4>
+									<p class="card-text">非常にリズミカルな日本語。</p>
+								</div>
+							</div>
+							<div class="card text-white bg-dark mb-3">
+								<div class="card-header">Dark card</div>
+								<div class="card-body">
+									<h4 class="card-title">めんどうくさいというまもの</h4>
+									<p class="card-text">頭に取りつかれると、すべてのことがめんどうくさくなるという恐ろしいまもの。縁が取りつかれた。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="card mb-3">
+								<div class="card-header">Default card</div>
+								<div class="card-body">
+									<h4 class="card-title">野々原ゆずこ</h4>
+									<p class="card-text">情報処理部のムードメーカー。いたずら好きな性格で、よく縁や唯を楽しませるようなことを言ったりするが、意外にまじめな一面も持っている。実は成績優秀。</p>
+								</div>
+							</div>
+							<div class="card border-primary mb-3">
+								<div class="card-header">Primary card</div>
+								<div class="card-body">
+									<h4 class="card-title">櫟井唯</h4>
+									<p class="card-text">サバサバした性格のしっかり者。情報処理部3人組の中で一番の常識人でまじめだが、時々シャイな一面を見せたりする。お金には厳しい方。</p>
+								</div>
+							</div>
+							<div class="card border-secondary mb-3">
+								<div class="card-header">Secondary card</div>
+								<div class="card-body">
+									<h4 class="card-title">日向縁</h4>
+									<p class="card-text">ぽわぽわした天然娘。情報処理部の部長でいつもマイペースだが、時に周囲を驚かせるような事を言ったりもする。いいとこのお嬢さま。</p>
+								</div>
+							</div>
+							<div class="card border-success mb-3">
+								<div class="card-header">Success card</div>
+								<div class="card-body">
+									<h4 class="card-title">松本頼子</h4>
+									<p class="card-text">情報処理部の顧問で英語教師。おっとりとした雰囲気で、ゆずこたちから「お母さん」と呼ばれて慕われているが、まだ20代で未婚。</p>
+								</div>
+							</div>
+							<div class="card border-danger mb-3">
+								<div class="card-header">Danger card</div>
+								<div class="card-body">
+									<h4 class="card-title">相川千穂</h4>
+									<p class="card-text">愛されキャラの委員長。ゆずこたちのクラスメイトで、ちょっと控えめな優しい雰囲気を持った女の子。巨乳で美少女。</p>
+								</div>
+							</div>
+							<div class="card border-warning mb-3">
+								<div class="card-header">Warning card</div>
+								<div class="card-body">
+									<h4 class="card-title">岡野佳</h4>
+									<p class="card-text">千穂のことがお気に入りな女の子。ゆずこたちのクラスメイトで、フランクな言葉づかいをするが根はとてもいい子。</p>
+								</div>
+							</div>
+							<div class="card border-info mb-3">
+								<div class="card-header">Info card</div>
+								<div class="card-body">
+									<h4 class="card-title">長谷川ふみ</h4>
+									<p class="card-text">不思議な雰囲気の女の子。ゆずこたちのクラスメイトで、どこか掴みどころのない性格だが、意外に周りのことをよく見ていたりもする。</p>
+								</div>
+							</div>
+							<div class="card border-light mb-3">
+								<div class="card-header">Light card</div>
+								<div class="card-body">
+									<h4 class="card-title">なんつってっつっちゃった</h4>
+									<p class="card-text">非常にリズミカルな日本語。</p>
+								</div>
+							</div>
+							<div class="card border-dark mb-3">
+								<div class="card-header">Dark card</div>
+								<div class="card-body">
+									<h4 class="card-title">めんどうくさいというまもの</h4>
+									<p class="card-text">頭に取りつかれると、すべてのことがめんどうくさくなるという恐ろしいまもの。縁が取りつかれた。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-component">
+							<div class="card mb-3">
+								<h3 class="card-header">News</h3>
+								<div class="card-body">
+									<h5 class="card-title">第3話が放映されました</h5>
+									<h6 class="card-subtitle text-muted">『夏休みじゃーい！』</h6>
+								</div>
+								<div class="embed-responsive embed-responsive-16by9">
+								</div>
+								<div class="card-body">
+									<p class="card-text">学校も夏休みに入りテンションの上がるゆずこと縁。夏の暑さにも負けず3人でプールに行ってはしゃいだり、唯の家で元気に遊んだりと、夏休みになって3人の気温も上昇中！？</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">いちげんめ</li>
+									<li class="list-group-item">にげんめ</li>
+									<li class="list-group-item">さんげんめ</li>
+								</ul>
+								<div class="card-body">
+									<a href="#" class="card-link">ゆゆ式公式</a>
+									<a href="#" class="card-link">情報処理部</a>
+								</div>
+								<div class="card-footer text-muted">2日前</div>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<h4 class="card-title">タイトル</h4>
+									<h6 class="card-subtitle mb-2 text-muted">サブタイトル</h6>
+									<p class="card-text">ここに本文が入ります。カードはヘッダー・フッターがないスタイルもつくることができます。</p>
+									<a href="#" class="card-link">リンク1</a>
+									<a href="#" class="card-link">リンク2</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="doc-section">
+				<div class="row">
+					<h1>Dialogs</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>Modals</h2>
+						<div class="doc-component d-flex justify-content-center p-md-4">
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">Show Dialog</button>
+						</div>
+						<div class="modal fade" id="exampleModal">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">タイトル</h5>
+										<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<p contenteditable>これはダイアログのサンプルテキストです。</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary">変更を保存</button>
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h2>Toast</h2>
+						<div class="doc-component d-flex justify-content-center p-md-4">
+							<div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+								<div class="toast-header">
+									<strong class="mr-auto">Yuzuko</strong>
+									<small>2秒前</small>
+									<button type="button" class="btn-close" data-dismiss="toast" aria-label="Close"></button>
+								</div>
+								<div class="toast-body">これはToast型通知メッセージのサンプルです。</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<h2>Popovers</h2>
+						<div class="doc-component">
+							<button type="button" class="btn btn-secondary" title="タイトル" data-container="body" data-toggle="popover" data-placement="left" data-content="PopoverのサンプルPopoverのサンプルPopoverのサンプル">Left</button>
+							<button type="button" class="btn btn-secondary" title="タイトル" data-container="body" data-toggle="popover" data-placement="top" data-content="本文サンプル本文サンプル本文サンプル">Top</button>
+							<button type="button" class="btn btn-secondary" title="タイトル" data-container="body" data-toggle="popover" data-placement="bottom" data-content="本文サンプル本文サンプル本文サンプル">Bottom</button>
+							<button type="button" class="btn btn-secondary" title="タイトル" data-container="body" data-toggle="popover" data-placement="right" data-content="本文サンプル本文サンプル本文サンプル">Right</button>
+						</div>
+						<h2>Tooltips</h2>
+						<div class="doc-component">
+							<a tabindex="0" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="左方向に出るTooltip">Left</a>
+							<a tabindex="0" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title=="上方向に出るTooltip">Top</a>
+							<a tabindex="0" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="下方向に出るTooltip">Bottom</a>
+							<a tabindex="0" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="右方向に出るTooltip">Right</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="yuzuko/js/bootstrap.bundle.js"></script>
+		<script src="docs.js"></script>
+	</body>
+</html>

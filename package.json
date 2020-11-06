@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-yuzuko",
+  "version": "1.0.0",
+  "description": "Bootstrap5 theme",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp release",
+    "serve": "gulp serve"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.bg-light {
+    background-color: lighten($primary, 8%) !important;
+}
+
+.bg-dark {
+    background-color: darken($primary, 76%) !important;
+}
+
+small, .small {
+    font-weight: 400;
+}

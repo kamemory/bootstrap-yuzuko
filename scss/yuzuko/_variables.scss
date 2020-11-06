@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+// Color system
+
+$pink:      #ffc9cd !default;
+//$pink:      #f2c0c2 !default;
+//$pink:      #f9c5c8 !default;
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 8% !default;
+
+$pink-100:  tint-color($pink, 8) !default;
+$pink-200:  tint-color($pink, 6) !default;
+$pink-300:  tint-color($pink, 4) !default;
+$pink-400:  tint-color($pink, 2) !default;
+$pink-500:  $pink !default;
+$pink-600:  shade-color($pink, 2) !default;
+$pink-700:  shade-color($pink, 4) !default;
+$pink-800:  shade-color($pink, 6) !default;
+$pink-900:  shade-color($pink, 8) !default;
+
+$primary:   $pink-500 !default;
+$secondary: $pink-600 !default;
+
+$link-color:    $secondary !default;
+
+$font-family-sans-serif:
+    -apple-system,
+    "BlinkMacSystemFont",
+    "Helvetica Neue",
+    Helvetica,
+    "Arial",
+    "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN",
+    "メイリオ",
+    Meiryo,
+    sans-serif,
+    "apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji" !default;
+
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-root:        null !default;
+$font-size-base:        1rem !default;
+
+$font-weight-lighter:   ligher !default;
+$font-weight-light:     400 !default;
+$font-weight-normal:    400 !default;
+$font-weight-bold:      600 !default;
+$font-weight-bolder:    bolder !default;
+
+$headings-font-weight:  $font-weight-bold !default;
+
+$blockquote-font-size:  $font-size-base !default;
+
+$btn-white-space:       nowrap !default;
+
+// Navbar
+
+$navbar-padding-y:      1rem;
+$navbar-padding-x:      2rem;
